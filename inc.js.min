@@ -1,0 +1,1 @@
+function h2r(a){c=parseInt(a.substring(1),16);var r=(c&0xff0000)>>16;var b=(c & 0x00ff00)>>8;var g=c&0x0000ff;return [r, g, b];}function r2h_help(a){var hex=c.toString(16);return hex.length==1 ? "0"+hex : hex;}function r2h(r,g,b) {return "#" + r2h_help(r) + r2h_help(g) + r2h_help(b);}
